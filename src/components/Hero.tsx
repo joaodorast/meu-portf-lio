@@ -88,14 +88,14 @@ export function Hero() {
                   <FiMail size={22} />
                 </a>
               </motion.div>
-            </div>
+            </div>   
           </motion.div>
           
-          <motion.div
+          <motion.div     
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
-            className="order-1 lg:order-2 flex justify-center"
+            className="order-1 lg:order-2 flex justify-center"   
           >
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-cosmic-purple/30">
               <div className="absolute inset-0 bg-gradient-to-br from-cosmic-purple/20 via-cosmic-blue/20 to-cosmic-cyan/20" />
